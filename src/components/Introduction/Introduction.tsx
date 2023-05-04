@@ -34,9 +34,9 @@ const Introduction = () => {
                 </Link>
                 <span className="sectiontag">&lt;/section&gt;</span>
             </div>
-            <div className="intro__right">
+            <div className="intro__right" >
                 <div className="logo__fill" >
-                <img style={{borderRadius:"40%",border:"4px solid yellow ",width:"90%",height:"90%"}} src='../favicon/yash.jpeg' alt="" />
+                <img style={{borderRadius:"40%",border:"4px solid yellow ",width:"75%",height:"75%"}} src='../favicon/yash.jpeg' alt="" />
                     
                 </div>
             </div>

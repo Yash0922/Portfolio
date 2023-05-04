@@ -1,12 +1,17 @@
-
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import './scss/navbar.scss';
 
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleMenuClick = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <nav
-      className="navbar"
+      className={`navbar ${isMenuOpen ? 'navbar--open' : ''}`}
       style={{
         position: 'sticky',
         top: '0',
@@ -29,14 +34,15 @@ const Navbar = () => {
           />
         </Link>
       </div>
-      <div className="navbar__right">
-        <ul className="navbar__list">
+      <div className={`navbar__right ${isMenuOpen ? 'navbar__right--open' : ''}`}>
+        <ul className={`navbar__list ${isMenuOpen ? 'navbar__list--open' : ''}`}>
           <li className="navbar__items">
             <Link
               to="about"
               smooth={true}
               duration={1200}
               className="navbar__itemsLink"
+              onClick={handleMenuClick}
             >
               <span className="navbar__itemsLinkNumeric">01.</span>.about
             </Link>
@@ -47,6 +53,7 @@ const Navbar = () => {
               smooth={true}
               duration={1200}
               className="navbar__itemsLink"
+              onClick={handleMenuClick}
             >
               <span className="navbar__itemsLinkNumeric">02.</span>.project
             </Link>
@@ -57,6 +64,7 @@ const Navbar = () => {
               smooth={true}
               duration={1200}
               className="navbar__itemsLink"
+              onClick={handleMenuClick}
             >
               <span className="navbar__itemsLinkNumeric">03.</span>.github
             </Link>
@@ -67,19 +75,21 @@ const Navbar = () => {
               smooth={true}
               duration={1200}
               className="navbar__itemsLink"
+              onClick={handleMenuClick}
             >
               <span className="navbar__itemsLinkNumeric">04.</span>.contact
             </Link>
           </li>
         </ul>
         <a
-          href="https://drive.google.com/file/d/1Bjy1sGRkLWhWIcdALtnPPEGBTTaGc2GY/view?usp=share_link"
+          href="https://drive.google.com/file/d/12FfwqKsD6IE8SbFQ9XgQSKG4SG1FrGCu/view?usp=share_link"
           target="_blank"
           rel="noreferrer"
           className="navbar__button"
         >
           Resume
         </a>
+      
       </div>
     </nav>
   );
