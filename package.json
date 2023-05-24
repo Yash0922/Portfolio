@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://yash0922.github.io/Portfolio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
@@ -39,6 +40,8 @@
   "scripts": {
     "dev": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "svgr": "npx @svgr/cli -d src/components/icons --ignore-existing --icon --typescript public/icons",
