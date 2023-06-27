@@ -202,6 +202,36 @@ const OtherProjects = () => {
                     </div>
                     
                 </li>
+                <li className="other__items">
+                    <div className="other__card">
+                        <div className="other__cardTop">
+                            <svg className="other__cardFolder">
+                                <use href="icons/symbol-defs.svg#icon-folder"></use>
+                            </svg>
+                            <div className='other__cardLink'>
+                                <a href="https://github.com/Yash0922/touch-typing-app" target='_blank' rel='noreferrer' style={{ marginRight: "1.6rem" }}>
+                                    <svg className="other__icon">
+                                        <use href="icons/symbol-defs.svg#icon-github"></use>
+                                    </svg>
+                                </a>
+                                <a href="https://touch-typing-app-cu67.vercel.app/" target='_blank' rel='noreferrer'>
+                                    <svg className="other__icon">
+                                        <use href="icons/symbol-defs.svg#icon-external-link"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="other__cardBody">
+                            <div className="other__cardBodyHeading">Typing Speed Test</div>
+                            <p className='other__cardBodyDescription'>
+                            This TypeScript-based project aims to create a web application for touch typing practice. By focusing on the fundamental concept of touch typing, users can improve their typing speed and accuracy by familiarizing themselves with the designated keys on the keyboard (asdfjkl;). The application provides a platform for users to practice typing these keys, enhancing their muscle memory and overall typing skills. Through regular practice and repetition, users can gradually increase their typing speed and efficiency.</p>
+                        </div>
+                        <div className="other__cardFooter">
+                            <div className='other__tags'> React.js &nbsp; Chakra UI &nbsp; Typescript &nbsp; bootstrap </div>
+                        </div>
+                    </div>
+                    
+                </li>
             </ul>
             <span className="sectiontag">&lt;/section&gt;</span>
             <div>
