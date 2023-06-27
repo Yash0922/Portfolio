@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://yash0922.github.io/Portfolio/",
+  "homepage": "https://yash0922.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
@@ -27,7 +27,7 @@
     "react-icons": "^4.8.0",
     "react-lazyload": "^3.2.0",
     "react-map-gl": "^7.0.19",
-    "react-router-dom": "^6.3.0",
+    "react-router-dom": "^6.14.0",
     "react-scripts": "^5.0.0",
     "react-scroll": "^1.8.9",
     "react-use": "^15.3.8",
@@ -38,7 +38,7 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "dev": "react-scripts start",
+    "dev": "react-scripts start --port 5000",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

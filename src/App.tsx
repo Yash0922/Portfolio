@@ -9,9 +9,12 @@ function App(): JSX.Element {
     <div className="App">
       < BrowserRouter>
         <Routes>
-          <Route index element={< Home />} />
+        <Route >
+          <Route path="/" element={< Home />} />
           <Route path="/contact" element={< Contact />} />
+          </Route>
         </Routes>
+        
       </BrowserRouter>
     </div>
   );

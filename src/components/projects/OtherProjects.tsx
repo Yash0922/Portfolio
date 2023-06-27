@@ -170,6 +170,37 @@ const OtherProjects = () => {
                             <div className='other__tags'> API call &nbsp; HTML / CSS &nbsp; Javascript</div>
                         </div>
                     </div>
+                    
+                </li>
+                <li className="other__items">
+                    <div className="other__card">
+                        <div className="other__cardTop">
+                            <svg className="other__cardFolder">
+                                <use href="icons/symbol-defs.svg#icon-folder"></use>
+                            </svg>
+                            <div className='other__cardLink'>
+                                <a href="https://github.com/Yash0922/my-todo-application" target='_blank' rel='noreferrer' style={{ marginRight: "1.6rem" }}>
+                                    <svg className="other__icon">
+                                        <use href="icons/symbol-defs.svg#icon-github"></use>
+                                    </svg>
+                                </a>
+                                <a href="https://my-todo-application-13uu.vercel.app/" target='_blank' rel='noreferrer'>
+                                    <svg className="other__icon">
+                                        <use href="icons/symbol-defs.svg#icon-external-link"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="other__cardBody">
+                            <div className="other__cardBodyHeading">TODO application</div>
+                            <p className='other__cardBodyDescription'>
+                            The MongoTodo app is a powerful and user-friendly task management application built with React.js and MongoDB. It allows users to create, track, and prioritize tasks effortlessly. With seamless integration of React.js, the app offers a responsive and intuitive user interface, while MongoDB ensures efficient storage and retrieval of task data. Simplify your to-do list with MongoTodo!        </p>
+                        </div>
+                        <div className="other__cardFooter">
+                            <div className='other__tags'> React.js &nbsp; Chakra UI &nbsp; MongoDB &nbsp; node.js &nbsp; express </div>
+                        </div>
+                    </div>
+                    
                 </li>
             </ul>
             <span className="sectiontag">&lt;/section&gt;</span>
