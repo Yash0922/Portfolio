@@ -197,7 +197,7 @@ const OtherProjects = () => {
                             The MongoTodo app is a powerful and user-friendly task management application built with React.js and MongoDB. It allows users to create, track, and prioritize tasks effortlessly. With seamless integration of React.js, the app offers a responsive and intuitive user interface, while MongoDB ensures efficient storage and retrieval of task data. Simplify your to-do list with MongoTodo!        </p>
                         </div>
                         <div className="other__cardFooter">
-                            <div className='other__tags'> React.js &nbsp; Chakra UI &nbsp; MongoDB &nbsp; node.js &nbsp; express </div>
+                            <div className='other__tags'> React.js &nbsp; Chakra UI &nbsp; MongoDB &nbsp; node.js &nbsp; express &nbsp; React Native  </div>
                         </div>
                     </div>
                     
@@ -227,7 +227,7 @@ const OtherProjects = () => {
                             This TypeScript-based project aims to create a web application for touch typing practice. By focusing on the fundamental concept of touch typing, users can improve their typing speed and accuracy by familiarizing themselves with the designated keys on the keyboard (asdfjkl;). The application provides a platform for users to practice typing these keys, enhancing their muscle memory and overall typing skills. Through regular practice and repetition, users can gradually increase their typing speed and efficiency.</p>
                         </div>
                         <div className="other__cardFooter">
-                            <div className='other__tags'> React.js &nbsp; Chakra UI &nbsp; Typescript &nbsp; bootstrap </div>
+                            <div className='other__tags'> React.js &nbsp; Chakra UI &nbsp; Typescript &nbsp; bootstrap &nbsp; Socket.io  </div>
                         </div>
                     </div>
                     
