@@ -79,14 +79,14 @@ const Project = () => {
                         </div>
                     </div>
                     <div className="project__right">
-                        <img className='project__img' src="https://raw.githubusercontent.com/code735/zoomcar/main/src/images/Home%20Page.png" />
+                        <img className='project__img' src="https://raw.githubusercontent.com/code735/zoomcar/main/src/images/Home%20Page.png" alt="Zoomcar home page" />
                     </div>
                 </section>
             </LazyLoad>
             <LazyLoad once height={400}>
                 <section className='project__section project__section3'>
                     <div className="project__left">
-                        <img className='project__img' src="../favicon/HotStarHomePage.png" />
+                        <img className='project__img' src="../favicon/HotStarHomePage.png" alt="Disney+ Hotstar home page" />
                     </div>
                     <div className="project__right">
                         <h3 className='project__headingTertiary'>Featured Project</h3>

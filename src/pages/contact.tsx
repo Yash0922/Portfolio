@@ -106,7 +106,7 @@ const Contact = () => {
             </div>
             <div className="contact__right">
                 <Map
-                    mapboxAccessToken='pk.eyJ1IjoieWFzaGZhbGtlNzciLCJhIjoiY2t1MjQ2Z2cwMmxjazJvbXI2OGk5b2V0dSJ9.BGnMIJbpa2OzthfRTtTP6w'
+                    mapboxAccessToken={process.env.REACT_APP_MAPBOX_TOKEN ?? ''}
                     initialViewState={{
                         longitude: 77.4136092,
                         latitude: 28.6566453,

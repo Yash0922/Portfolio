@@ -31,16 +31,16 @@ const OtherProjects = () => {
                                 <use href="icons/symbol-defs.svg#icon-folder"></use>
                             </svg>
                             <div className='other__cardLink'>
-                                <a href="" target='_blank' rel='noreferrer' style={{ marginRight: "1.6rem" }}>
+                                <button type="button" className="other__cardLinkButton" style={{ marginRight: "1.6rem" }} aria-label="View on GitHub">
                                     <svg className="other__icon">
                                         <use href="icons/symbol-defs.svg#icon-github"></use>
                                     </svg>
-                                </a>
-                                <a href="" target='_blank' rel='noreferrer'>
+                                </button>
+                                <button type="button" className="other__cardLinkButton" aria-label="View project">
                                     <svg className="other__icon">
                                         <use href="icons/symbol-defs.svg#icon-external-link"></use>
                                     </svg>
-                                </a>
+                                </button>
                             </div>
                         </div>
                         <div className="other__cardBody">
@@ -60,16 +60,16 @@ const OtherProjects = () => {
                                 <use href="icons/symbol-defs.svg#icon-folder"></use>
                             </svg>
                             <div className='other__cardLink'>
-                                <a href="" target='_blank' rel='noreferrer' style={{ marginRight: "1.6rem" }}>
+                                <button type="button" className="other__cardLinkButton" style={{ marginRight: "1.6rem" }} aria-label="View on GitHub">
                                     <svg className="other__icon">
                                         <use href="icons/symbol-defs.svg#icon-github"></use>
                                     </svg>
-                                </a>
-                                <a href="" target='_blank' rel='noreferrer'>
+                                </button>
+                                <button type="button" className="other__cardLinkButton" aria-label="View project">
                                     <svg className="other__icon">
                                         <use href="icons/symbol-defs.svg#icon-external-link"></use>
                                     </svg>
-                                </a>
+                                </button>
                             </div>
                         </div>
                         <div className="other__cardBody">
@@ -89,16 +89,16 @@ const OtherProjects = () => {
                                 <use href="icons/symbol-defs.svg#icon-folder"></use>
                             </svg>
                             <div className='other__cardLink'>
-                                <a href="" target='_blank' rel='noreferrer' style={{ marginRight: "1.6rem" }}>
+                                <button type="button" className="other__cardLinkButton" style={{ marginRight: "1.6rem" }} aria-label="View on GitHub">
                                     <svg className="other__icon">
                                         <use href="icons/symbol-defs.svg#icon-github"></use>
                                     </svg>
-                                </a>
-                                <a href="" target='_blank' rel='noreferrer'>
+                                </button>
+                                <button type="button" className="other__cardLinkButton" aria-label="View on CodePen">
                                     <svg className="other__icon">
                                         <use href="icons/symbol-defs.svg#icon-codepen"></use>
                                     </svg>
-                                </a>
+                                </button>
                             </div>
                         </div>
                         <div className="other__cardBody">
@@ -119,16 +119,16 @@ const OtherProjects = () => {
                                 <use href="icons/symbol-defs.svg#icon-folder"></use>
                             </svg>
                             <div className='other__cardLink'>
-                                <a href="" target='_blank' rel='noreferrer' style={{ marginRight: "1.6rem" }}>
+                                <button type="button" className="other__cardLinkButton" style={{ marginRight: "1.6rem" }} aria-label="View on GitHub">
                                     <svg className="other__icon">
                                         <use href="icons/symbol-defs.svg#icon-github"></use>
                                     </svg>
-                                </a>
-                                <a href="" target='_blank' rel='noreferrer'>
+                                </button>
+                                <button type="button" className="other__cardLinkButton" aria-label="View on CodePen">
                                     <svg className="other__icon">
                                         <use href="icons/symbol-defs.svg#icon-codepen"></use>
                                     </svg>
-                                </a>
+                                </button>
                             </div>
                         </div>
                         <div className="other__cardBody">
@@ -149,16 +149,16 @@ const OtherProjects = () => {
                                 <use href="icons/symbol-defs.svg#icon-folder"></use>
                             </svg>
                             <div className='other__cardLink'>
-                                <a href="" target='_blank' rel='noreferrer' style={{ marginRight: "1.6rem" }}>
+                                <button type="button" className="other__cardLinkButton" style={{ marginRight: "1.6rem" }} aria-label="View on GitHub">
                                     <svg className="other__icon">
                                         <use href="icons/symbol-defs.svg#icon-github"></use>
                                     </svg>
-                                </a>
-                                <a href="" target='_blank' rel='noreferrer'>
+                                </button>
+                                <button type="button" className="other__cardLinkButton" aria-label="View project">
                                     <svg className="other__icon">
                                         <use href="icons/symbol-defs.svg#icon-external-link"></use>
                                     </svg>
-                                </a>
+                                </button>
                             </div>
                         </div>
                         <div className="other__cardBody">
